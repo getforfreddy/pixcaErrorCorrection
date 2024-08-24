@@ -1,0 +1,108 @@
+spectrum@spectrums-Mini pixca % cd ios              
+
+----------      
+spectrum@spectrums-Mini ios % pod install
+
+---------
+
+Ignoring debug-1.6.3 because its extensions are not built. Try: gem pristine debug --version 1.6.3
+Ignoring gem-wrappers-1.4.0 because its extensions are not built. Try: gem pristine gem-wrappers --version 1.4.0
+Ignoring rbs-2.7.0 because its extensions are not built. Try: gem pristine rbs --version 2.7.0
+Analyzing dependencies
+[!] No podspec found for `fluttertoast` in `../.symlinks/plugins/fluttertoast/ios`
+---------
+
+spectrum@spectrums-Mini ios % rm Podfile Podfile.lock
+rm: Podfile.lock: No such file or directory
+
+---------
+
+spectrum@spectrums-Mini ios % rm -rf Pods
+
+---------
+
+spectrum@spectrums-Mini ios % pod init
+Ignoring debug-1.6.3 because its extensions are not built. Try: gem pristine debug --version 1.6.3
+Ignoring gem-wrappers-1.4.0 because its extensions are not built. Try: gem pristine gem-wrappers --version 1.4.0
+Ignoring rbs-2.7.0 because its extensions are not built. Try: gem pristine rbs --version 2.7.0
+[!] Existing Podfile found in directory
+
+--------
+
+spectrum@spectrums-Mini ios % rm -rf Pods
+
+
+--------
+
+spectrum@spectrums-Mini ios % rm -rf Pods
+
+
+-------
+
+spectrum@spectrums-Mini ios % pod install
+
+Ignoring debug-1.6.3 because its extensions are not built. Try: gem pristine debug --version 1.6.3
+Ignoring gem-wrappers-1.4.0 because its extensions are not built. Try: gem pristine gem-wrappers --version 1.4.0
+Ignoring rbs-2.7.0 because its extensions are not built. Try: gem pristine rbs --version 2.7.0
+Analyzing dependencies
+Downloading dependencies
+Installing Flutter (1.0.0)
+Installing Toast (4.1.1)
+Installing fluttertoast (0.0.2)
+Generating Pods project
+Integrating client project
+Pod installation complete! There are 2 dependencies from the Podfile and 3 total pods installed.
+
+[!] Automatically assigning platform `iOS` with version `12.0` on target `Runner` because no platform was specified. Please specify a platform for this target in your Podfile. See `https://guides.cocoapods.org/syntax/podfile.html#platform`.
+
+
+---------
+
+spectrum@spectrums-Mini ios % pod update                                    
+Ignoring debug-1.6.3 because its extensions are not built. Try: gem pristine debug --version 1.6.3
+Ignoring gem-wrappers-1.4.0 because its extensions are not built. Try: gem pristine gem-wrappers --version 1.4.0
+Ignoring rbs-2.7.0 because its extensions are not built. Try: gem pristine rbs --version 2.7.0
+Update all pods
+Updating local specs repositories
+Analyzing dependencies
+Downloading dependencies
+Generating Pods project
+Integrating client project
+Pod installation complete! There are 2 dependencies from the Podfile and 3 total pods installed.
+
+[!] Automatically assigning platform `iOS` with version `12.0` on target `Runner` because no platform was specified. Please specify a platform for this target in your Podfile. See `https://guides.cocoapods.org/syntax/podfile.html#platform`.
+
+
+
+
+/// uncomment the platform :ios, _(accurate version)_ in podfile in ios ///
+
+---------
+
+spectrum@spectrums-Mini ios % pod install
+
+Ignoring debug-1.6.3 because its extensions are not built. Try: gem pristine debug --version 1.6.3
+Ignoring gem-wrappers-1.4.0 because its extensions are not built. Try: gem pristine gem-wrappers --version 1.4.0
+Ignoring rbs-2.7.0 because its extensions are not built. Try: gem pristine rbs --version 2.7.0
+Analyzing dependencies
+Downloading dependencies
+Generating Pods project
+Integrating client project
+Pod installation complete! There are 2 dependencies from the Podfile and 3 total pods installed.
+
+
+
+--------
+
+spectrum@spectrums-Mini ios % pod update 
+Ignoring debug-1.6.3 because its extensions are not built. Try: gem pristine debug --version 1.6.3
+Ignoring gem-wrappers-1.4.0 because its extensions are not built. Try: gem pristine gem-wrappers --version 1.4.0
+Ignoring rbs-2.7.0 because its extensions are not built. Try: gem pristine rbs --version 2.7.0
+Update all pods
+Updating local specs repositories
+Analyzing dependencies
+Downloading dependencies
+Generating Pods project
+Integrating client project
+Pod installation complete! There are 2 dependencies from the Podfile and 3 total pods installed.
+spectrum@spectrums-Mini ios % 
